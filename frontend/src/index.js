@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
 import EmailList from './components/email/email.js';
 import DisplayEmails from './components/email/displayemail.js';
 import EmailSender from './components/email/emailsender.js';
@@ -42,5 +41,4 @@ root.render(
   </React.StrictMode>
 );
 
-reportWebVitals();
 
