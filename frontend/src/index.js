@@ -30,6 +30,8 @@ function Main() {
       {/* DisplayEmails will re-fetch whenever emailRefreshTrigger changes */}
       <DisplayEmails emailRefreshTrigger={emailRefreshTrigger} />
       <EmailManager /> Render the new combined EmailManager component
+      <EmailManager /> Render the new combined EmailManager component
+
     </>
   );
 }
