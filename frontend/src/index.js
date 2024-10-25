@@ -24,7 +24,7 @@ function Main() {
   return (
     <>
       <EmailRestAPI />
-      {/* <App /> */}
+      <App />
       <EmailSender />
       <EmailList emailList={emailList} setEmailList={setEmailList} onEmailAdded={handleEmailAdded} />
       {/* DisplayEmails will re-fetch whenever emailRefreshTrigger changes */}
