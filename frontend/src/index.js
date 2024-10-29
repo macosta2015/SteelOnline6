@@ -26,7 +26,7 @@ function Main() {
       <EmailRestAPI />
       <App />
       <EmailSender />
-      {/* <EmailList emailList={emailList} setEmailList={setEmailList} onEmailAdded={handleEmailAdded} /> */}
+      <EmailList emailList={emailList} setEmailList={setEmailList} onEmailAdded={handleEmailAdded} />
       {/* DisplayEmails will re-fetch whenever emailRefreshTrigger changes */}
       <DisplayEmails emailRefreshTrigger={emailRefreshTrigger} />
       <EmailManager /> Render the new combined EmailManager component
