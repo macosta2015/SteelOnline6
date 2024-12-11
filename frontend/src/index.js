@@ -29,7 +29,7 @@ function Main() {
       <EmailList emailList={emailList} setEmailList={setEmailList} onEmailAdded={handleEmailAdded} />
       {/* DisplayEmails will re-fetch whenever emailRefreshTrigger changes */}
       <DisplayEmails emailRefreshTrigger={emailRefreshTrigger} />
-      {/* <EmailManager /> Render the new combined EmailManager component */}
+      <EmailManager /> Render the new combined EmailManager component
       <EmailManager /> Render the new combined EmailManager component
 
     </>
