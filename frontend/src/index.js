@@ -31,7 +31,6 @@ function Main() {
       <DisplayEmails emailRefreshTrigger={emailRefreshTrigger} />
       <EmailManager /> Render the new combined EmailManager component
       <EmailManager /> Render the new combined EmailManager component
-      <EmailManager /> Render the new combined EmailManager component
 
     </>
   );
