@@ -24,6 +24,8 @@ function Main() {
   return (
     <>
       <EmailRestAPI />
+
+      <EmailRestAPI />
       <App />
       <EmailSender />
       <EmailList emailList={emailList} setEmailList={setEmailList} onEmailAdded={handleEmailAdded} />
